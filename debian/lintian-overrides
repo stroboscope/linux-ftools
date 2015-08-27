@@ -1,0 +1,4 @@
+linux-ftools: binary-without-manpage usr/bin/linux-fadvise
+linux-ftools: binary-without-manpage usr/bin/linux-fallocate
+linux-ftools: binary-without-manpage usr/bin/linux-fincore
+

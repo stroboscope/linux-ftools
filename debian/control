@@ -1,12 +1,14 @@
 Source: linux-ftools
-Section: unknown
+Section: devel
 Priority: extra
-Maintainer: Kevin Burton <burtonator@gmail.com>
-Build-Depends: debhelper (>= 7), autotools-dev
+Maintainer: Sergey Viuchny <sergey@de-bs.ru>
+Build-Depends: debhelper (>= 7), dh-autoreconf, hardening-wrapper
 Standards-Version: 3.7.3
 Homepage: http://code.google.com/p/linux-ftools/
 
 Package: linux-ftools
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: These are tools designed for working with modern linux system calls including, mincore, fallocate, fadvise, etc.
+Description: Tools for working with vfs
+ These are tools designed for working with modern linux system
+ calls including, mincore, fallocate, fadvise, etc.
